@@ -1,0 +1,29 @@
+#container {
+    margin: 0 auto;
+    width: 1000px;
+}
+div {
+    padding: 20px;
+    border: 1px solid gray;
+}
+#header {
+    margin-bottom: 20px;
+}
+#sidebar1{
+    width: 150px;
+    float: left;
+}
+#contents{
+    margin: 0 27px;
+    margin-bottom: 20px;
+    width: 500px;
+    float: left;
+    
+}
+#sidebar2{
+    width: 150px;
+    float: left;
+}
+#footer{
+    clear: both;
+}

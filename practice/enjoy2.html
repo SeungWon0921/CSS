@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테스트</title>
+    <style>
+        #header{
+            width: 100%;
+            height: 50px;
+
+        }
+        #header::after {
+            background-color: blue;
+        }
+        #header > ul{
+            display: flex;
+            list-style: none;
+        }
+        #header > ul > li {
+            padding: 20px 20px;
+            color: rgb(167, 86, 86);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li><a href="#">더보기</a></li>
+        </ul>
+    </div>
+    <div id="the" style="display: none;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque obcaecati voluptates rem deserunt quis magnam repellendus! Cum dolorum consectetur expedita quam ipsum libero omnis quisquam laboriosam atque. Ab, eaque?
+    </div>
+</body>
+</html>

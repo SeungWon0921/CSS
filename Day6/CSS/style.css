@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body { font-family: 'Cafe24Ssurround';
+    border: 2px solid yellow;
+} 
+header {
+    height: 300px;
+    background: url(../images/header.jpg) no-repeat top center;
+    background-size: cover;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+}
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+}
+nav > ul > li {
+    display: inline-block;
+    margin: 15px 20px;
+}
+a { text-decoration: none; }
+a:link, a:visited { color: white;}
+a:active { color: yellow;}
+a:hover { color: yellow;}
+
+#map {
+    background-color: yellow;
+}
+.photo {
+    display: none;
+}
+.page-title{
+    line-height: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.content{
+    padding-bottom: 40px;
+}
+.text > p {
+    line-height: 40px;
+}
+p{
+    padding-left: 80px;
+}
+h2 {
+    padding-left: 85px;
+}
+ol {
+    padding-left: 130px;
+    font-size: 12px;
+    
+}
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    #intro,#map{
+        width: 45%;
+        float: left;
+    }
+    #choice{
+        clear: both;
+    }
+}
+@media screen and (min-width:1000px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+    header{
+        background-size: 100%;
+    }
+    .photo {
+        display: flex;
+    }
+    .content{
+        display: flex;
+    }
+    #intro,#map{
+        position: relative;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+
+    #chot{
+        order: 1;
+    }
+    #chop {
+        order: 2;
+    }
+}
